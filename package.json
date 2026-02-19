@@ -1,0 +1,27 @@
+{
+  "name": "a1project",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "homepage": "https://chenzhi1024subscribe-ai.github.io/A1-Summer-Movies",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "svelte-kit sync || echo ''",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^7.0.0",
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.50.2",
+    "@sveltejs/vite-plugin-svelte": "^6.2.4",
+    "gh-pages": "^6.3.0",
+    "svelte": "^5.49.2",
+    "svelte-check": "^4.3.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  }
+}
